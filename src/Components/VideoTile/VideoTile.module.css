@@ -1,0 +1,29 @@
+.videoContainer {
+  width: 110px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 95%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 5px 0;
+}
+
+.imgContainer {
+  position: relative;
+  overflow: hidden;
+  width: 110px;
+  height: 63px;
+}
+
+.videoContainer img {
+  width: 110px;
+  transform: translate(0%, -12%);
+}
